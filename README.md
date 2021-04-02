@@ -27,10 +27,6 @@
             |---|---| 
             |男生|30.5%|
             |女性|10.9%|
-            ![image](https://user-images.githubusercontent.com/66631188/113394966-ba68b300-93cb-11eb-940d-e12cb19c6746.png)
-            6. 其他
-            ![image](https://user-images.githubusercontent.com/66631188/113394907-a2912f00-93cb-11eb-9bfd-510376efd273.png)
-
             Step3: 透過相關係數分析,決策樹和回歸模型分析。
 
 實驗結果：從sql分析可以發現資本利得,教育時間,性別和收入有明顯關係
@@ -40,3 +36,5 @@
 
 結論： 以上幾種變數和收入大小有正相關。
 ```
+![image](https://user-images.githubusercontent.com/66631188/113394966-ba68b300-93cb-11eb-940d-e12cb19c6746.png)
+ ![image](https://user-images.githubusercontent.com/66631188/113394907-a2912f00-93cb-11eb-9bfd-510376efd273.png)
