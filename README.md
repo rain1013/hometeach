@@ -8,16 +8,16 @@
 
 Step1: 單欄位分析： 先做特徵處理，因為資料大多為序列類別，因此先分別將六種特徵數值化以便分析。
 1. 買價,維護價皆為類別，分別有high low med vhigh四種，各有432個
-                 <img width="84" alt="截圖 2021-04-10 下午2 08 36" src="https://user-images.githubusercontent.com/66631188/114260276-65015700-9a06-11eb-8a45-1dbe1385c840.png">
+<img width="84" alt="截圖 2021-04-10 下午2 08 36" src="https://user-images.githubusercontent.com/66631188/114260276-65015700-9a06-11eb-8a45-1dbe1385c840.png">
 
 2. 乘載人數則有2,3,4,5人以上分別為432人
-                 <img width="174" alt="截圖 2021-04-10 下午2 03 11" src="https://user-images.githubusercontent.com/66631188/114260158-ab09eb00-9a05-11eb-88f0-50bdebeb9c7d.png">
+<img width="174" alt="截圖 2021-04-10 下午2 03 11" src="https://user-images.githubusercontent.com/66631188/114260158-ab09eb00-9a05-11eb-88f0-50bdebeb9c7d.png">
                  
 3. 車門數量則分成 2,4,以上，各有576個
-                 <img width="101" alt="截圖 2021-04-10 下午2 11 41" src="https://user-images.githubusercontent.com/66631188/114260328-b4478780-9a06-11eb-91ed-7abb93d63b58.png">
+<img width="101" alt="截圖 2021-04-10 下午2 11 41" src="https://user-images.githubusercontent.com/66631188/114260328-b4478780-9a06-11eb-91ed-7abb93d63b58.png">
                  
 4. 後車廂大小分為大中小三類型，分別有576個
-                 <img width="90" alt="截圖 2021-04-10 下午2 12 25" src="https://user-images.githubusercontent.com/66631188/114260347-d6410a00-9a06-11eb-8952-badf9d94502d.png">
+<img width="90" alt="截圖 2021-04-10 下午2 12 25" src="https://user-images.githubusercontent.com/66631188/114260347-d6410a00-9a06-11eb-8952-badf9d94502d.png">
                  
 5. 安全度與後車廂大小類似，分成高中低，數量也是576個
 
