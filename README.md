@@ -26,13 +26,11 @@ Step1. 欄位檢查：
 Step2. 關聯分析（先使用sql分析）
 從min,max和avg中，可以觀察出三者在花萼,花瓣長度與花瓣寬度有線性關係，virginica最長,其次為versicolor,最後為setosa
 <img width="945" alt="截圖 2021-04-10 上午9 05 32" src="https://user-images.githubusercontent.com/66631188/114253225-ee4f6400-99db-11eb-911c-09a4e1568bb8.png">
-Step3: 透過相關係數分析,決策樹和回歸模型分析。
+Step3: 透過決策樹和回歸模型分析，兩個model都認為'petal length (cm)', 'petal width (cm)'影響最大
+<img width="890" alt="截圖 2021-04-10 上午9 16 28" src="https://user-images.githubusercontent.com/66631188/114253645-8c8ff980-99dd-11eb-9880-6ba6f5e2d273.png">
 
-實驗結果：發現三種類型的鳶尾花在花瓣,花萼長度與花瓣寬度有線性關係，
-        virginica的花瓣,花萼長度與花瓣寬度平均值較versicolor與s為大;
-        而觀察最大值與最小值，僅花瓣長度在最大值與最小值上有明顯線性關係。
-結論：因此推論可以使用花瓣長度來預測鳶尾花類型。
-
+實驗結果：可以使用petal的長寬來判別種類
+結論：因此推論可以使用花瓣長度與寬度來預測鳶尾花類型。
 簡單| 說明 
 ----- | ------------- 
 特徵1   | 花萼長度 
