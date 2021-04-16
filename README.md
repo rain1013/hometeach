@@ -23,7 +23,8 @@ Step1. 欄位檢查：
 以組距來看,可把花瓣寬度分成0-3共四組，資料大多集中在0-2之間。
 <img width="117" alt="截圖 2021-04-10 上午8 54 12" src="https://user-images.githubusercontent.com/66631188/114252918-58ffa000-99da-11eb-9366-a36a127e338d.png">
 
-＊小結論： 從上述數據可發現，花萼在長度與寬度皆比花瓣長。
+＊小結論： 從上述數據可發現，花萼在長度與寬度皆比花瓣長。</br>
+</br>
 Step2. 關聯分析（先使用sql分析）
 從min,max和avg中，可以觀察出三者在花萼,花瓣長度與花瓣寬度有線性關係，virginica最長,其次為versicolor,最後為setosa
 <img width="945" alt="截圖 2021-04-10 上午9 05 32" src="https://user-images.githubusercontent.com/66631188/114253225-ee4f6400-99db-11eb-911c-09a4e1568bb8.png">
