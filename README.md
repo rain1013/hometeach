@@ -28,6 +28,7 @@ Step1. 欄位檢查：
 Step2. 關聯分析（先使用sql分析）
 從min,max和avg中，可以觀察出三者在花萼,花瓣長度與花瓣寬度有線性關係，virginica最長,其次為versicolor,最後為setosa
 <img width="945" alt="截圖 2021-04-10 上午9 05 32" src="https://user-images.githubusercontent.com/66631188/114253225-ee4f6400-99db-11eb-911c-09a4e1568bb8.png">
+</br>
 Step3: 透過決策樹和回歸模型分析，兩個model都認為'petal length (cm)', 'petal width (cm)'影響最大
 <img width="890" alt="截圖 2021-04-10 上午9 16 28" src="https://user-images.githubusercontent.com/66631188/114253645-8c8ff980-99dd-11eb-9880-6ba6f5e2d273.png">
 
