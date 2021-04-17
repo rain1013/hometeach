@@ -5,10 +5,12 @@
 /DEWP: Dew Point (â„ƒ)/TEMP: Temperature (â„ƒ)/PRES: Pressure (hPa)/cbwd: Combined wind direction/Iws: Cumulated wind speed (m/s)/Is: Cumulated hours of snow
 /Ir: Cumulated hours of rain
 對應的結果 pm2.5: PM2.5 concentration (ug/m^3)
+
 Step0.
   前處理：
   1. 先進行時間資料處理
   2. 將pm2.5數值化
+
 Step1. 欄位檢查：
   1. 每月pm2.5 data
   平均值最高的月份分別為2013-01(191)/2014-02(173)/2011-01(150)
