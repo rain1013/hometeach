@@ -20,7 +20,11 @@ Step1. 欄位檢查：
   最大值最高的年份分別為 2012(994)/2010(980)/2013(886)
   最小值：2010-2014最小值都是0
   <img width="377" alt="截圖 2021-04-17 上午9 41 43" src="https://user-images.githubusercontent.com/66631188/115098190-2537f380-9f61-11eb-82bd-9f1c46c26c2a.png">
-Step2. 關聯分析（先使用sql分析）
+  <img width="407" alt="截圖 2021-04-17 下午2 13 43" src="https://user-images.githubusercontent.com/66631188/115103793-309e1580-9f87-11eb-9821-9a7be7870ed6.png">
+
+Step2. 關聯分析
+  1. 從下圖可以發現，每年年初pm2.5明顯較其他月份來的高
+  <img width="414" alt="截圖 2021-04-17 下午2 15 25" src="https://user-images.githubusercontent.com/66631188/115103822-6511d180-9f87-11eb-9f16-19b967aa19e1.png">
 
 Step3: 透過相關係數分析與回歸模型分析。
 實驗結果：
