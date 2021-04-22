@@ -2,18 +2,18 @@
 實驗目標：什麼時間地點狀況下空污嚴重？
 實驗項目大綱：
 特徵：</br> 
-No: row number</br>
-year: year of data in this row </br>
-month: month of data in this row</br>
-day: day of data in this row</br>
-hour: hour of data in this row</br>
-DEWP: Dew Point (â„ƒ)</br>
-TEMP: Temperature (â„ƒ)</br>
-PRES: Pressure (hPa)</br>
-cbwd: Combined wind direction</br>
-Iws: Cumulated wind speed (m/s)</br>
-Is: Cumulated hours of snow</br>
-Ir: Cumulated hours of rain</br>
+1. No: row number</br>
+2. year: year of data in this row </br>
+3. month: month of data in this row</br>
+4. day: day of data in this row</br>
+5. hour: hour of data in this row</br>
+6. DEWP: Dew Point (â„ƒ)</br>
+7. TEMP: Temperature (â„ƒ)</br>
+8. PRES: Pressure (hPa)</br>
+9. cbwd: Combined wind direction</br>
+10. Iws: Cumulated wind speed (m/s)</br>
+11. Is: Cumulated hours of snow</br>
+12. Ir: Cumulated hours of rain</br>
 對應的結果 pm2.5: PM2.5 concentration (ug/m^3)
 
 Step0.
