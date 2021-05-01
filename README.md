@@ -33,10 +33,39 @@ Step1. 欄位檢查：
   最小值：2010-2014最小值都是0
   <img width="377" alt="截圖 2021-04-17 上午9 41 43" src="https://user-images.githubusercontent.com/66631188/115098190-2537f380-9f61-11eb-82bd-9f1c46c26c2a.png">
   <img width="407" alt="截圖 2021-04-17 下午2 13 43" src="https://user-images.githubusercontent.com/66631188/115103793-309e1580-9f87-11eb-9821-9a7be7870ed6.png">
+  3. cbwd
+  觀測時間中，風向最常出現的是SE，次數高達15290次。
+   <img width="639" alt="截圖 2021-05-01 上午10 07 23" src="https://user-images.githubusercontent.com/66631188/116767822-2c80f600-aa65-11eb-8931-6274ce018fb8.png">
+   <img width="214" alt="截圖 2021-05-01 上午10 07 06" src="https://user-images.githubusercontent.com/66631188/116767805-1bd08000-aa65-11eb-833e-6de053fd63b8.png">
+NE     4997
+NW    14150
+SE    15290
+cv     9387
 
 Step2. 關聯分析
   1. 從下圖可以發現，每年年初pm2.5明顯較其他月份來的高
   <img width="414" alt="截圖 2021-04-17 下午2 15 25" src="https://user-images.githubusercontent.com/66631188/115103822-6511d180-9f87-11eb-9f16-19b967aa19e1.png">
-
+  </br>
+  2. 從下圖可發現，風向為cv時，平均的pm2.5數值最高
+  <img width="273" alt="截圖 2021-05-01 上午10 18 22" src="https://user-images.githubusercontent.com/66631188/116768074-a1086480-aa66-11eb-99d7-21e621da3e41.png">
+  </br>
+  3. pm2.5 vs temp
+  <img width="953" alt="截圖 2021-05-01 上午10 21 46" src="https://user-images.githubusercontent.com/66631188/116768145-12e0ae00-aa67-11eb-8db0-6a4d0497db26.png">
+  </br>
+  4. pm2.5 vs lws
+  <img width="950" alt="截圖 2021-05-01 上午10 22 33" src="https://user-images.githubusercontent.com/66631188/116768168-3146a980-aa67-11eb-8cf1-c486483ca618.png">
+  </br>
+  5. pm2.5 vs Is
+  <img width="963" alt="截圖 2021-05-01 上午10 23 04" src="https://user-images.githubusercontent.com/66631188/116768179-46bbd380-aa67-11eb-8915-5ee89d928c6e.png">
+  </br>
+  6. pm2.5 vs Ir
+  <img width="962" alt="截圖 2021-05-01 上午10 23 51" src="https://user-images.githubusercontent.com/66631188/116768198-5c30fd80-aa67-11eb-86ec-638c2212c9f9.png">
+  </br>
+  7. pm2.5 vs PRES
+  <img width="954" alt="截圖 2021-05-01 上午10 24 15" src="https://user-images.githubusercontent.com/66631188/116768209-6fdc6400-aa67-11eb-835f-c76776d0d360.png">
+  </br>
+  8. pm2.5 vs DEWP
+  <img width="970" alt="截圖 2021-05-01 上午10 24 46" src="https://user-images.githubusercontent.com/66631188/116768222-884c7e80-aa67-11eb-9ab2-b1b74e823729.png">
+  </br>
 Step3: 實驗結果：
 結論： 每年年初幾個月之pm2.5值，明顯較其他月份來的高。
