@@ -46,26 +46,34 @@ Step2. 關聯分析
   1. 從下圖可以發現，每年年初pm2.5明顯較其他月份來的高
   <img width="414" alt="截圖 2021-04-17 下午2 15 25" src="https://user-images.githubusercontent.com/66631188/115103822-6511d180-9f87-11eb-9f16-19b967aa19e1.png">
   </br>
+  
   2. 從下圖可發現，風向為cv時，平均的pm2.5數值最高
   <img width="273" alt="截圖 2021-05-01 上午10 18 22" src="https://user-images.githubusercontent.com/66631188/116768074-a1086480-aa66-11eb-99d7-21e621da3e41.png">
   </br>
-  3. pm2.5 vs temp
+  
+  3. pm2.5 vs temp： 溫度有週期性，年初與年底溫度最低，可發現溫度低的時候月pm2.5值偏低。
   <img width="953" alt="截圖 2021-05-01 上午10 21 46" src="https://user-images.githubusercontent.com/66631188/116768145-12e0ae00-aa67-11eb-8db0-6a4d0497db26.png">
   </br>
-  4. pm2.5 vs lws
+  
+  4. pm2.5 vs lws 風速與pm2.5看不出明顯趨勢。
   <img width="950" alt="截圖 2021-05-01 上午10 22 33" src="https://user-images.githubusercontent.com/66631188/116768168-3146a980-aa67-11eb-8cf1-c486483ca618.png">
   </br>
-  5. pm2.5 vs Is
+  
+  5. pm2.5 vs Is 降雪量越多，月平均pm2.5越高。
   <img width="963" alt="截圖 2021-05-01 上午10 23 04" src="https://user-images.githubusercontent.com/66631188/116768179-46bbd380-aa67-11eb-8915-5ee89d928c6e.png">
   </br>
-  6. pm2.5 vs Ir
+  
+  6. pm2.5 vs Ir 雨量與pm2.5看不出明顯趨勢。
   <img width="962" alt="截圖 2021-05-01 上午10 23 51" src="https://user-images.githubusercontent.com/66631188/116768198-5c30fd80-aa67-11eb-86ec-638c2212c9f9.png">
   </br>
-  7. pm2.5 vs PRES
+  
+  7. pm2.5 vs PRES PRES越高，pm2.5越高。
   <img width="954" alt="截圖 2021-05-01 上午10 24 15" src="https://user-images.githubusercontent.com/66631188/116768209-6fdc6400-aa67-11eb-835f-c76776d0d360.png">
   </br>
-  8. pm2.5 vs DEWP
+  
+  8. pm2.5 vs DEWP DEWP與pm2.5看不出明顯趨勢。
   <img width="970" alt="截圖 2021-05-01 上午10 24 46" src="https://user-images.githubusercontent.com/66631188/116768222-884c7e80-aa67-11eb-9ab2-b1b74e823729.png">
   </br>
+  
 Step3: 實驗結果：
 結論： 每年年初幾個月之pm2.5值，明顯較其他月份來的高。
