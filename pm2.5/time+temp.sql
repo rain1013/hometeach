@@ -1,6 +1,6 @@
 with prepross as (
 select
-field6, 
+field8, 
 field2,
 	case
 	when length(field3) ==1 then '0'||field3
@@ -18,16 +18,13 @@ field2,
 ),
 clean_data as (
 SELECT
-cast (field6 as int) as pm_value,
+field8,
 datetime(field2||'-'|| month_clean||'-'||day_clean||' '||hour_clean||':00:00') as dt
 from prepross
 )
 
 select 
-datetime(dt,'start of month'),
-round(avg(pm_value),2) as "avg_pm2.5",
-round(max(pm_value),2) as "max_pm2.5",
-round(min(pm_value),2) as "min_pm2.5"
+datetime(dt, 'start of month'),
+avg(field8) as "TEMP"
 from clean_data
-group by datetime(dt,'start of month')
-order by round(min(pm_value),2)  asc
+group by datetime(dt, 'start of month')
