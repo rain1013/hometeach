@@ -74,7 +74,9 @@ Step2. 關聯分析
   8. pm2.5 vs DEWP DEWP與pm2.5看不出明顯趨勢。
   <img width="970" alt="截圖 2021-05-01 上午10 24 46" src="https://user-images.githubusercontent.com/66631188/116768222-884c7e80-aa67-11eb-9ab2-b1b74e823729.png">
   </br>
-  
+  9. 比較時間與每個月pm2.5值是否超過三倍標準差，發現13,11,14,10年份月初出現abnormal次數最多。
+  <img width="490" alt="截圖 2021-05-15 上午10 30 52" src="https://user-images.githubusercontent.com/66631188/118345725-01200000-b569-11eb-8116-8fa432de5d35.png">
+  </br>
 Step3: 實驗結果：
 結論： 
 1. 每年年初幾個月之pm2.5值，明顯較其他月份來的高。
