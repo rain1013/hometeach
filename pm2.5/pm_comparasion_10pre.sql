@@ -1,3 +1,4 @@
+--與前十個小時的variance比較
 with data as (
 	select
 	pm,

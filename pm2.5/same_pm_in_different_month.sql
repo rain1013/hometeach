@@ -1,3 +1,4 @@
+--找出2010年1月和8月都有出現過的pm2.5值
 with data1 as (
 select 
 dt as dt_aug,

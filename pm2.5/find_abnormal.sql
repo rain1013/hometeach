@@ -1,3 +1,4 @@
+--找出每個月pm2.5出現異常的次數（使用三倍標準差去找出outlier）
 with preprocess1 as (
 	select 
 		 1 as ID,

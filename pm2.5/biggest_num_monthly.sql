@@ -1,3 +1,4 @@
+--找出2010每個月最大的pm2.5值，透過join的方式
 with data1 as (
 select 
 dt as date_dt,
