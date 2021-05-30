@@ -4,7 +4,7 @@ select
 count(field2) as game_url_amt
 from URL_Classification
 where field3 = 'Games' and 
-field2 REGEXP '(?<=)(game)+'
+field2 REGEXP '(?<=www.)(game)+'
 ),
 
 data2 as (

@@ -28,5 +28,3 @@ select
 	count(max_pm) as amt
 from data2 
 group by rank_amt
-order by amt DESC
-limit 1
