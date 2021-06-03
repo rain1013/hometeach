@@ -14,6 +14,7 @@ select
 	max(cast(pm_adjust as INT)) over (ROWs  between  UNBOUNDED PRECEDING and CURRENT row) as max_pm
 from preprocess1
 ),
+
 data2 as (
 select 
 	dt,
